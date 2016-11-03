@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook-Login</title>
+</head>
+<body>
+<form action="action.php" method="POST">
+<table width="100%" style="background-color:blue;">
+<tr>
+<td width="10%"></td>
+<td width="70%"><a href="http://www.facebook.com"><h1 style="color:white;">facebook</h1></a></td>
+<td style="text-align:left;">
+<table>
+<tr>
+<td style="color:white;">Email or Phone</td>
+<td colspan="2" style="color:white;">Password</td>
+</tr>
+<tr>
+<td><input type="text" name="email-id"></input></td>
+<td><input type="password" name="password"></input></td>
+<td><input type="submit" name="loggedin" value="Log In"></input></td>
+</tr>
+<tr>
+<td></td>
+<td style="color:white">Forgotten Account?</td>
+<td></td>
+</tr>
+</table>
+</td>
+</form>
+<table width="100%">
+<tr>
+<td width="10%"></td>
+<td width="40%" rowspan="100" style="color:blue; font-size:20px; font-weight:bold;"><br/><br/>Facebook helps you connect and share with<br/> the people in your life.<br/>
+<img src="https://fbstatic-a.akamaihd.net/rsrc.php/v3/yx/r/pyNVUg5EM0j.png">
+</td>
+<td>
+<p style="font-weight:bold; font-size:30px;">Create an account.</p>
+<p style="font-size:20px">It's free and always will be.</p>
+<form action="action1.php" method="POST">
+<input type="text" name="firstname"></input>
+<input type="text" name="surname"></input><br/>
+<input type="text" name="email" size="43"></input><br/>
+<input type="text" name="re-email" size="43"></input><br/>
+<input type="password" name="password"></input><br/>
+Birthday<br/>
+<input type="number" name="dob_date" min="1" max="31" selected="1" size="4"></input>
+<input type="number" min="1" max="12" name="dob_month" selected="1" size="4"></input>
+<input type="text" name="dob_year" value="2016"></input><br/>
+<input type="radio" name="male">Male</input>
+<input type="radio" name="female">Female</input><br/>
+<input type="submit" name="submitted" value="Create an Account"</input>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
